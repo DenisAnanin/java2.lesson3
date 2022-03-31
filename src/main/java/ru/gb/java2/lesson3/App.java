@@ -6,8 +6,13 @@ public class App {
     public static void main(String[] args) {
         counting();
         PhoneSearch directory = new PhoneSearch();
-        directory.create();
+
+        directory.add("8(495)000-00-00", "Иванов");
+        directory.add("8(495)000-00-01", "Петров");
+        directory.add("8(495)000-00-02", "Иванов");
+        directory.add("8(495)000-00-03", "Сидоров");
         directory.add("8(495)","Иванов");
+
         directory.get("Иванов");
 
     }

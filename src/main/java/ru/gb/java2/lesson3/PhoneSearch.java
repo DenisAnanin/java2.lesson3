@@ -5,14 +5,6 @@ import java.util.*;
 public class PhoneSearch {
     private final HashMap<String, String> directory = new HashMap<>();
 
-    public void create() {
-
-        directory.put("8(495)000-00-00", "Иванов");
-        directory.put("8(495)000-00-01", "Петров");
-        directory.put("8(495)000-00-02", "Иванов");
-        directory.put("8(495)000-00-03", "Сидоров");
-    }
-
     public void add(String s1, String s2) {
         directory.put(s1, s2);
     }
