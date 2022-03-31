@@ -5,8 +5,8 @@ import java.util.*;
 public class PhoneSearch {
     private final HashMap<String, String> directory = new HashMap<>();
 
-    public void add(String s1, String s2) {
-        directory.put(s1, s2);
+    public void add(String phone, String surname) {
+        directory.put(phone, surname);
     }
 
     public void get(String s) {
