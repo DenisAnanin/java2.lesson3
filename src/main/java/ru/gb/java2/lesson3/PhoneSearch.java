@@ -3,7 +3,7 @@ package ru.gb.java2.lesson3;
 import java.util.*;
 
 public class PhoneSearch {
-    private final AbstractMap<String, String> directory = new HashMap<>();
+    private final HashMap<String, String> directory = new HashMap<>();
 
     public void create() {
 
